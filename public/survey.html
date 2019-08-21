@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center"><span class="jumleft"></span> Friend Finder</h1>
+            <hr>
+            <h2 class="text-center">Answer some simple questions and find your new best friend!</h2>
+            <br>
+
+            <div class="text-center">
+                <a href="/"><button class="btn btn-lg btn-primary" id ="homebtn"><span class="fa fa-list-alt"></span>
+                        Home</button></a>
+                <!-- <a href="/reserve"><button class="btn btn-lg btn-danger"><span class="fa fa-credit-card"></span> Make Reservation</button></a> -->
+            </div>
+
+        </div>
+      
+        <div class="container">
+            <form>
+
+                <div class="form-group">
+                    <input id="name" type="text" class="form-control" placeholder="Name (Required)">
+                </div>
+                <div class="form-group">
+                    <input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
+                </div>
+                <div class="form-group">
+                    <label for="question1">How do you feel about outdoor activities?</label>
+                    <select class="form-control" id="question1">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question2">How do you feel about playing sports?</label>
+                    <select class="form-control" id="question2">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question3">How do you feel about video games?</label>
+                    <select class="form-control" id="question3">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question4">How do you feel about reading?</label>
+                    <select class="form-control" id="question4">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question5">How do you feel about poetry?</label>
+                    <select class="form-control" id="question5">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question6">How do you feel about fishing?</label>
+                    <select class="form-control" id="question6">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question7">How do you feel about Abraham Lincoln</label>
+                    <select class="form-control" id="question7">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question8">How do you feel about Lord of the Rings?</label>
+                    <select class="form-control" id="question8">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question9">How do you feel about Star Wars?</label>
+                    <select class="form-control" id="question9">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question10">The princes Bride is the best movie.</label>
+                    <select class="form-control" id="question10">
+                        <option value="empty"></option>
+                        <option value="1">1 (strongly dislike)</option>
+                        <option value="2">2 (dislike)</option>
+                        <option value="3">3 (neither enjoy nor dislike)</option>
+                        <option value="4">4 (enjoy)</option>
+                        <option value="5">5 (strongly enjoy)</option>
+                    </select>
+                </div>
+                <button type="submit" id="subbtn" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</button>
+            </form>
+        </div>
+       
+                <!-- <button type="button" class="btn btn-primary btn-large" data-toggle="modal" data-target="#myModal">Launch demo modal</button> -->
+            
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">                               
+                                <h4 class="modal-title">Your new BEST FRIEND!</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h2 id ="newFriend"></h2>
+                                <img id ="FriendPhoto" src ="#">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">YAY!! Now Goodbye.</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends Link</a> |
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script type="text/javascript">
+
+        $("#subbtn").on("click", function (event) {
+            event.preventDefault();
+
+
+            let friendInput = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+
+                    $("#question1").val().trim(),
+                    $("#question2").val().trim(),
+                    $("#question3").val().trim(),
+                    $("#question4").val().trim(),
+                    $("#question5").val().trim(),
+                    $("#question6").val().trim(),
+                    $("#question7").val().trim(),
+                    $("#question8").val().trim(),
+                    $("#question9").val().trim(),
+                    $("#question10").val().trim(),
+
+                ]
+            };
+
+            console.log(JSON.stringify(friendInput))
+            let currentURL = window.location.origin;
+
+            $.post(currentURL + '/api/friends', friendInput).then(function (data) {
+                $("#newFriend").text(data.name);
+				$("#FriendPhoto").attr("src", data.photo);
+				$("#myModal").modal("toggle");
+
+                $("#name").val("");
+                $("#photo").val("");
+                $("#question1").val("");
+                $("#question2").val("");
+                $("#question3").val("");
+                $("#question4").val("");
+                $("#question5").val("");
+                $("#question6").val("");
+                $("#question7").val('');
+                $("#question8").val('');
+                $("#question9").val('');
+                $("#question10").val('');
+
+            });
+
+
+
+
+        });
+
+
+
+
+    </script>
+
+</body>
+
+</html>

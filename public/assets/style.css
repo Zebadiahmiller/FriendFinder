@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color:white;
+}
+.jumbotron{
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+}
+#homebtn{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    border: 2px black;
+    color:white;
+}
+#subbtn{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    border: 2px black;
+    color:white;
+}
